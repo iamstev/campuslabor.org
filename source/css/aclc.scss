@@ -1,0 +1,95 @@
+@import  "colors";
+
+body{
+  background-color: $azure;
+  font-family: 'Montserrat', sans-serif;
+  margin:0;
+  padding:0;
+}
+
+h1{
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+h2{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+p{
+  font-weight: 300;
+  line-height: 1.5;
+  em.eye_catch{
+    line-height: 1.25;
+  }
+}
+em.eye_catch{
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+body.background_image {
+  background-image: url('/img/AdobeStock_266647907_edited.jpg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.splash{
+  width:100%;
+  margin:0;
+  padding:0;
+  img{
+    display:block;
+    width:75%;
+    max-width:1000px;
+    margin:5% auto;
+  }
+}
+
+.error_404{
+  font-size: 5rem;
+  color:white;
+  text-align: center;
+}
+
+img.brand{
+  display:block;
+  margin: 2rem auto 0 auto;
+  width:95%;
+  max-width: 600px;
+}
+section.brand{
+  box-sizing: border-box;
+  width:95%;
+  max-width: 600px;
+  padding: 1rem;
+  margin:2rem auto;
+  background-color:white;
+  background-color: rgba(255,255,255, 0.75);
+}
+
+
+table.mono{
+  font-family: 'Roboto Mono', monospace;
+  table-layout: fixed;
+  th{
+    font-weight: 200;
+    padding:0.5rem;
+  }
+  td{
+    font-weight: 400;
+    padding:0.5rem;
+  }
+}
+
+div.color_swatch{
+  background-color: $azure;
+  float:right;
+  width:50px;
+  height:50px;
+  box-sizing: border-box;
+  border: solid 1px black;
+  margin: 0 0 1rem 1rem;
+}
